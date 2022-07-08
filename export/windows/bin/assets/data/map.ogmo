@@ -1,0 +1,79 @@
+{
+  "name": "MFGJ",
+  "ogmoVersion": "3.4.0",
+  "levelPaths": ["."],
+  "backgroundColor": "#282c34ff",
+  "gridColor": "#3c4049cc",
+  "anglesRadians": false,
+  "directoryDepth": 5,
+  "layerGridDefaultSize": {"x": 16, "y": 16},
+  "levelDefaultSize": {"x": 320, "y": 240},
+  "levelMinSize": {"x": 640, "y": 480},
+  "levelMaxSize": {"x": 640, "y": 480},
+  "levelValues": [],
+  "defaultExportMode": ".json",
+  "compactExport": false,
+  "externalScript": "",
+  "playCommand": "",
+  "entityTags": [],
+  "layers": [
+    {
+      "definition": "entity",
+      "name": "Entities",
+      "gridSize": {"x": 16, "y": 16},
+      "exportID": "83364704",
+      "requiredTags": [],
+      "excludedTags": []
+    },
+    {
+      "definition": "tile",
+      "name": "Walls",
+      "gridSize": {"x": 16, "y": 16},
+      "exportID": "83360068",
+      "exportMode": 0,
+      "arrayMode": 0,
+      "defaultTileset": ""
+    }
+  ],
+  "entities": [
+    {
+      "exportID": "83368343",
+      "name": "player",
+      "limit": -1,
+      "size": {"x": 16, "y": 16},
+      "origin": {"x": 0, "y": 0},
+      "originAnchored": true,
+      "shape": {
+        "label": "Rectangle",
+        "points": [
+          {"x": -1, "y": -1},
+          {"x": 1, "y": -1},
+          {"x": -1, "y": 1},
+          {"x": 1, "y": -1},
+          {"x": -1, "y": 1},
+          {"x": 1, "y": 1}
+        ]
+      },
+      "color": "#ff0000ff",
+      "tileX": false,
+      "tileY": false,
+      "tileSize": {"x": 16, "y": 16},
+      "resizeableX": false,
+      "resizeableY": false,
+      "rotatable": false,
+      "rotationDegrees": 360,
+      "canFlipX": false,
+      "canFlipY": false,
+      "canSetColor": false,
+      "hasNodes": false,
+      "nodeLimit": 0,
+      "nodeDisplay": 0,
+      "nodeGhost": true,
+      "tags": [],
+      "values": []
+    }
+  ],
+  "tilesets": [
+    {"label": "New Tileset", "path": "../images/tiles.png", "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAA90lEQVR4nO3ZTQ6CMBAG0CnxUiw18dQksvRYuIKggrESf1rf2wEhIfmmndKmU7RDbHCIc9ryPt/VPHq4P56z7lOeJiIvUOHXpYmI6Ls2K9i+a9/2QXzWwxYQYcTX7qoAbsMeR7oiqNdUAGthm+7rdjUDCPv/3K0BcheElG1xEWgm+B9pOMawJXA7gWVrnpnytYR6TS0gN2RFUYc0HgaNga61g6XA+67VAgqX5qeBr+wBKICy7eYXt4HPC8KfAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwKy4Vlj1TrdxEhwAAAABJRU5ErkJggg==", "tileWidth": 16, "tileHeight": 16, "tileSeparationX": 0, "tileSeparationY": 0, "tileMarginX": 0, "tileMarginY": 0}
+  ]
+}
